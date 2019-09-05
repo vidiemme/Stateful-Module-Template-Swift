@@ -8,7 +8,7 @@ Clone the repository, cd into it and then launch the install bash script.
 sh install.sh
 ```
 
-Input your root password and you are done!
+Type your root password and you are done!
 
 ## Usage instruction
 
