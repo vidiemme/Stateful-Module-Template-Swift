@@ -10,13 +10,19 @@ import Foundation
 
 class ___VARIABLE_productName:identifier___Responder {
 	
-	weak var ui: ___VARIABLE_productName:identifier___ViewController?
-	fileprivate let network: ___VARIABLE_productName:identifier___Network.Type = ___VARIABLE_productName:identifier___NetworkManager.self
+	fileprivate weak var ui: ___VARIABLE_productName:identifier___ViewController?
+	fileprivate let network: ___VARIABLE_productName:identifier___Network
 	
-	init() { }
-}
+	init(_ ui: ___VARIABLE_productName:identifier___ViewController? = nil, network: ___VARIABLE_productName:identifier___Network = ___VARIABLE_productName:identifier___NetworkManager()) {
+		self.ui = ui
+		self.network = network
+    }
 
-// MARK: - Network Output
-extension ___VARIABLE_productName:identifier___Responder {
-	
+    func moduleViewDidLoad() {
+    	ui?.state = .initial(())
+    }
+
+    func moduleViewWillAppear() {
+    	//This is a good place to set the loading state and start a network request for fresh data
+    }
 }

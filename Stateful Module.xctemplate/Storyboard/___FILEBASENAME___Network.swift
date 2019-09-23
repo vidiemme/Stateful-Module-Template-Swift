@@ -9,12 +9,9 @@
 import Foundation
 
 protocol ___VARIABLE_productName:identifier___Network {
-	//static func sampleRequest(result: @escaping R<<#Class#>>, error: @escaping R<Error>)
+
 }
 
 class ___VARIABLE_productName:identifier___NetworkManager: ___VARIABLE_productName:identifier___Network {
-	fileprivate init() { }
-	
-//	static func sampleRequest(result: @escaping R<<#Class#>>, error: @escaping R<Error>) {
-//	}
+
 }
