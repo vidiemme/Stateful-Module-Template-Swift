@@ -15,8 +15,4 @@ extension ___VARIABLE_productName:identifier___ViewController {
 		let name = "___VARIABLE_productName:identifier___ViewController"
 		return UIStoryboard(name: name, bundle: Bundle.main).instantiateViewController(withIdentifier: name) as! ___VARIABLE_productName:identifier___ViewController
 	}
-	
-	func moduleIfNeeded() {
-		self.responder?.ui = self
-	}
 }
