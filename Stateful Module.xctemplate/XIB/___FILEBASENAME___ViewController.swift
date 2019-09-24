@@ -15,15 +15,15 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController {
 		didSet { self.updateUI() }
 	}
 	
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        responder.moduleViewDidLoad()
-    }
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		responder.moduleViewDidLoad()
+	}
 
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        responder.moduleViewWillAppear()
-    }
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		responder.moduleViewWillAppear()
+	}
 	
 	fileprivate func onStateInitial(_ obj: Void) { }
 	

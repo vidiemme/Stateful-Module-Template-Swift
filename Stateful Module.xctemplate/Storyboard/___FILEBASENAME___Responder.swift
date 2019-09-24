@@ -16,13 +16,13 @@ class ___VARIABLE_productName:identifier___Responder {
 	init(_ ui: ___VARIABLE_productName:identifier___ViewController? = nil, network: ___VARIABLE_productName:identifier___Network = ___VARIABLE_productName:identifier___NetworkManager()) {
 		self.ui = ui
 		self.network = network
-    }
+	}
 
-    func moduleViewDidLoad() {
-    	ui?.state = .initial(())
-    }
+	func moduleViewDidLoad() {
+		ui?.state = .initial(())
+	}
 
-    func moduleViewWillAppear() {
-    	//This is a good place to set the loading state and start a network request for fresh data
-    }
+	func moduleViewWillAppear() {
+		//This is a good place to set the loading state and start a network request for fresh data
+	}
 }
